@@ -1,1 +1,1 @@
-# first golang language predictor
+# golang - language predictor
