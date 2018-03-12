@@ -33,7 +33,7 @@ func main() {
 	}
 }
 
-//do quesry gets results form http post
+//do quesry gets results form http post lalala
 func do(query string) (*response, error) {
 
 	values := url.Values{
