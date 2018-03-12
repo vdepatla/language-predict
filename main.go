@@ -20,6 +20,7 @@ type response struct {
 	OutputValue float64
 }
 
+//main function
 func main() {
 	s := bufio.NewScanner(os.Stdin)
 	fmt.Printf("Enter text > ")
@@ -33,7 +34,7 @@ func main() {
 	}
 }
 
-//do quesry gets results form http post
+
 func do(query string) (*response, error) {
 
 	values := url.Values{
